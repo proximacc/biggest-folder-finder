@@ -20,8 +20,6 @@ public class Main {
             sum += getFolderSize(file);
         }
         return sum;
-
-
     }
 
 }
