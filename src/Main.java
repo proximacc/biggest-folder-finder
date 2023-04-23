@@ -11,6 +11,7 @@ public class Main {
 
     public static long getFolderSize(File folder) {
         if(folder.isFile()) {
+
             return folder.length();
         }
 
